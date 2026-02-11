@@ -20,3 +20,8 @@ plt.show()
 ```
 
 ### Results
+
+![Visialization of Top Skills Datata Analysts](3_Project/images/skill_demand_all_data_roles.png)
+
+### Insights
+
