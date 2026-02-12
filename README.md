@@ -29,4 +29,26 @@ Bar graph visualizing the salary for the top 3 data roles and their top 5 skills
 * Data Engineers require more specialized technical skills (AWS, Azure, Spark) compared to Data Analysts and Data Scientists who are expected to be proficient in more general data management and analysis tools (Excel, Tableau).
 *Python is a versatile skill, highly demanded across all three roles, but most prominently for Data Scientists (72%) and Data Engineers (65%).
 
+## 2. How are in-demand skills trending for Data Analysts?
 
+### Visualize Date
+
+``` python
+
+from matplotlib.ticker import PercentFormatter
+
+df_plot = df_DA_US_percent.iloc[:, :5]
+sns.lineplot(data=df_plot, dashes=False, legend='full', palette='tab10')
+
+plt.gca().yaxis.set_major_formatter(PercentFormatter(decimals=0))
+
+plt.show()
+
+```
+
+### Results
+
+![Trending Top Skills for Data Analyst in the US](3_Project/images/skill_trend_DA.png)
+*Bar Graph visualizing the trending top skills for data analysts in the US in 2023.*
+
+### Insights:
