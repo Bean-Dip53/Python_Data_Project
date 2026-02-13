@@ -59,4 +59,4 @@ plt.show()
 
 * Both Python and Tableau show relatively stable demand throughout the year with some fluctuations but remain essential skills for data analysts. Power BI, while less demanded compared to the others, shows a slight upward trend towards the year's end.
 
-## 2. 3. How well do jobs and skills pay for Data Analysts?
+## 3. How well do jobs and skills pay for Data Analysts?
